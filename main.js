@@ -21,7 +21,9 @@ function setNewTargetColor() {
   let randomNum = getRandomNum();
   targetColor = colorsBtn[randomNum];
   color.style.backgroundColor = targetColor;
+color.style.border=targetColor;
   statusDisplay.textContent = "";
+
 }
 
 startAgainBtn.addEventListener("click", function () {

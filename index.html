@@ -8,9 +8,14 @@
 </head>
 <body>
     <div class="container">
-        <div class="guessColor">
-            Welcome
+        <h1>COLOR GUESSING GAME</h1>
+        <div class="color-wrap">
+                
+                <div class="guessColor"></div>
+                <h1>Guess the Color in the circle from the buttons:</h1>
         </div>
+
+        <div class="status"></div>
 
         <div class="options">
             <div class="colorBtn"></div>
@@ -20,15 +25,13 @@
             <div class="colorBtn"></div>
             <div class="colorBtn"></div>
         </div>
-
-        <div class="instructions">
-            <h4>Guess The Correct Color</h4>
-        </div>
-
-        <div class="status"></div>
+       
         <div class="score">score: </div>
+        <div>
+            <button class="startAgain" type="reset" data-testid="newGameButton">Start Game</button>
+        </div>
     </div>
-    <button class="startAgain" type="reset" data-testid="newGameButton">Start Game</button>
+    
 
     <script src="main.js"></script>
 </body>

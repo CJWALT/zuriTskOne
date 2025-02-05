@@ -1,0 +1,48 @@
+.colorBtn{
+    width: 50px;
+    height: 50px;
+    border-radius: 1rem;
+    cursor: pointer;
+    background-color: red;
+    border: 1px solid black;
+}
+.colorBtn1{
+    width: 50px;
+    height: 50px;
+    border-radius: 1rem;
+    cursor: pointer;
+    background-color: blue;
+    border: 1px solid black;
+}
+.colorBtn2{
+    width: 50px;
+    height: 50px;
+    border-radius: 1rem;
+    cursor: pointer;
+    background-color: green;
+    border: 1px solid black;
+}
+.colorBtn3{
+    width: 50px;
+    height: 50px;
+    border-radius: 1rem;
+    cursor: pointer;
+    background-color: yellow;
+    border: 1px solid black;
+}
+.colorBtn4{
+    width: 50px;
+    height: 50px;
+    border-radius: 1rem;
+    cursor: pointer;
+    background-color: purple;
+    border: 1px solid black;
+}
+.colorBtn5{
+    width: 50px;
+    height: 50px;
+    border-radius: 1rem;
+    cursor: pointer;
+    background-color: orange;
+    border: 1px solid black;
+}

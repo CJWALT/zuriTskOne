@@ -10,12 +10,14 @@ body{
     font-family:'mada', sans-serif;
 }
 .container{ 
+    background: grey;
     display:flex; 
     justify-content: center;
     align-content:center;
     flex-direction:column;
     align-items: center;
     width:100%; 
+     
     height:100vh;
 }
 
@@ -36,16 +38,29 @@ h1{ margin-bottom: 20px;
 .guessColor{ 
     width:100px; 
     height:100px;
-    border-radius:25px; 
+    border-radius:50px; 
     border:1px solid red;
 }
 
+.score{ 
+    transition:all 3s ease; 
+    font-size:1.7rem;
+    font-weight:500;
+    color:white;
+}
+.status{ 
+    font-size:1rem; 
+    font-weight:700; 
+    font-style: italic;
+    transition:all 3s ease;
+}
 .options{ 
     display:flex; 
     flex-direction: row;
     width:250px; 
     max-width:260px;
     flex-wrap:wrap;
+    padding:10px 0;
     justify-content: space-between;
     gap:20px;
     
@@ -54,60 +69,48 @@ h1{ margin-bottom: 20px;
 .options > div{ 
     width:100px;
     height:60px;
-}
-.colorBtn{
-    
-    
-    border-radius: 1rem;
     cursor: pointer;
-    background-color: red
-    
-}
+    transition:all 2s ease-in; 
+    border-radius: 1rem;
+    }
+
+    .options > div:hover{ 
+        transform:scale(.8)
+    }
+
+
 .colorBtn1{
-    
-    
-    border-radius: 1rem;
-    cursor: pointer;
-    background-color: blue;
+   background-color: blue;
     
 }
 .colorBtn2{
-    
-    
-    border-radius: 1rem;
-    cursor: pointer;
-    background-color: green;
+      background-color: green;
     
 }
 .colorBtn3{
-    
-    
-    border-radius: 1rem;
-    cursor: pointer;
     background-color: yellow;
     
 }
 .colorBtn4{
-    
-    
-    border-radius: 1rem;
-    cursor: pointer;
     background-color: purple;
     
 }
 .colorBtn5{
-    
-    
-    border-radius: 1rem;
-    cursor: pointer;
     background-color: orange;
     
 }
 
 button{ 
-    padding:20px 30px;
+    margin-top:20px;
+    padding:7px 14px;
     border:none;
     background-color: aqua;
-    border-radius: 10px;
+    border-radius: 14px;
+    font-weight:800;
     cursor: pointer;
+    transition:all 3s ease-in ;
 }
+ button:hover{ 
+    border:1px solid aqua; 
+    font-weight:200;
+ }

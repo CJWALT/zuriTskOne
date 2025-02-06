@@ -11,13 +11,14 @@
         <h1>COLOR GUESSING GAME</h1>
         <div class="color-wrap">
                 
-                <div class="guessColor"></div>
-                <h1>Guess the Color in the circle from the buttons:</h1>
+                <div class="guessColor" data-testid="colorBox"></div>
+                <h1 data-testid="gameInstructions">Guess the Color in the circle from the buttons:</h1>
         </div>
 
-        <div class="status"></div>
+        <div class="status" data-testid="gameStatus"></div>
 
-        <div class="options">
+        <div class="score" data-testid="score">Score:  </div>
+        <div data-testid="colorOption" class="options">
             <div class="colorBtn"></div>
             <div class="colorBtn"></div>
             <div class="colorBtn"></div>
@@ -26,7 +27,7 @@
             <div class="colorBtn"></div>
         </div>
        
-        <div class="score">score: </div>
+        
         <div>
             <button class="startAgain" type="reset" data-testid="newGameButton">Start Game</button>
         </div>
